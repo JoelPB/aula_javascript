@@ -1,7 +1,7 @@
 
 
 var idade = 18
-idade = 10
+
 if(idade >= 18){
     alert('Maior de idade')
 }else{
