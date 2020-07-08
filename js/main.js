@@ -3,8 +3,13 @@
 var count = 0
 while(count < 5){
     console.log(count)
+    alert(count)
     count++
 }
+/*while(count < 5){
+    console.log(count)
+    count++
+}*/
 /*var idade = prompt('Qual a sua idade?')
 //var idade = 18
 
