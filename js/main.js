@@ -5,6 +5,15 @@ function clicou(){
     //console.log(document.getElementById("agradecimento"))
     //alert("Obrigado por clicar")
 }
+
+function redirecionar(){
+    window.open("https://www.globalacademy.us/")
+    //window.location.href = "https://www.globalacademy.us/"
+}
+
+function trocar(){
+    alert("trocar texto")
+}
 /*
 function soma(n1, n2){
     return n1 + n2
