@@ -1,9 +1,16 @@
 
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>"
+    //console.log(document.getElementById("agradecimento"))
+    //alert("Obrigado por clicar")
+}
+/*
 function soma(n1, n2){
     return n1 + n2
 }
-
+*/
+/*
 function validarIdade(idade){
     var validar
     if(idade >= 18){
@@ -16,6 +23,7 @@ function validarIdade(idade){
 
 idade = prompt("Qual a sua idade?")
 console.log(validarIdade(idade))
+*/
 /*
 function setReplace(frase, nome, novo_nome){
     return frase.replace(nome, novo_nome)
