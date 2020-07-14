@@ -1,9 +1,30 @@
 
 
+function soma(n1, n2){
+    return n1 + n2
+}
+
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+
+alert(soma(5,10))
+alert(setReplace("Vai Japão", "Japão", "Brasil"))
+
+/*
+var d = new Date()
+alert(d.getDay())
+alert(d.getHours())
+alert(d.getMinutes())
+*/
+/*
+var d = new Date()
+alert(d)*/
+/*
 var count
 for (count=0; count<=5; count++) {
     alert(count)    
-}
+}*/
 /*
 var count = 0
 while(count < 5){
