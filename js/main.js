@@ -11,9 +11,27 @@ function redirecionar(){
     //window.location.href = "https://www.globalacademy.us/"
 }
 
-function trocar(){
-    alert("trocar texto")
+function trocar(elemento){
+    //document.getElementById("mouseover").innerHTML = "Obrigado por passar o mouse"
+    elemento.innerHTML = "Obrigado por passar o mouse"
+    //alert("trocar texto")
 }
+
+function voltar(elemento){
+    //document.getElementById("mouseover").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function load(){
+    alert("página carregada")
+}
+
+function funcaoChenge(elemento){
+    
+    console.log(elemento.value)
+    
+}
+
 /*
 function soma(n1, n2){
     return n1 + n2
